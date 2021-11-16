@@ -3,9 +3,28 @@
 $vue-color: #46bd87;
 $danger-color: #ea4d46;
 
-/* Navbar */
+/* Colors */
+$primaryColor1: hsl(356, 100%, 66%);
+$primaryColor2: hsl(355, 100%, 74%);
+$primaryColor3: hsl(208, 49%, 24%);
 
-$navbar-height: 3.6rem;
-$navbar-color: #fff;
-$navbar-offline-color: #333;
-$navbar-link-color: #2c3e50;
+$neutralColor1: hsl(0, 0%, 100%); // White Text
+$neutralColor2: hsl(240, 2%, 79%); // Footer Text
+$neutralColor3: hsl(207, 13%, 34%); // Body Text
+$neutralColor4: hsl(240, 10%, 16%); // Footer BG
+
+$menuTextColor: hsla(237, 17%, 21%, 1);
+
+$gradientRedLight: hsl(13, 100%, 72%);
+$gradientRedDark: hsl(353, 100%, 62%);
+
+$gradientBlueLight: hsl(237, 17%, 21%);
+$gradientBlueDark: hsl(237, 23%, 32%);
+
+$white: #fff;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+$textFont: 'Overpass', sans-serif;
+$linkFont: 'Ubuntu', sans-serif;

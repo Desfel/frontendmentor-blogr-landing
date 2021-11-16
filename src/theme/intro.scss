@@ -1,0 +1,120 @@
+.intro-section {
+  padding: 150px 0 70px 165px;
+  overflow: hidden;
+
+  @media (max-width: 1100px) {
+    padding: 100px 70px 380px;
+  }
+
+  @media (max-width: 1100px) {
+    padding: 100px 24px 380px;
+  }
+
+  @media (max-width: 425px) {
+    padding-bottom: 250px;
+  }
+
+  h2 {
+    color: $primaryColor3;
+    font-family: $textFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: -1.2px;
+    margin-bottom: 93px;
+
+    @media (max-width: 1100px) {
+      margin-bottom: 38px;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 28px;
+      line-height: 43px;
+      /* identical to box height */
+
+      text-align: center;
+      letter-spacing: -0.84px;
+    }
+  }
+}
+
+.intro-content-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: -200px;
+
+  @media (max-width: 1100px) {
+    flex-direction: column-reverse;
+  }
+
+  @media (max-width: 1100px) {
+    margin-top: 0;
+  }
+
+  .left-intro-content {
+
+    @media (max-width: 1100px) {
+      margin-top: 46px;
+      text-align: center;
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 28px;
+      color: $primaryColor3;
+      margin-bottom: 24px;
+
+      @media (max-width: 767px) {
+        line-height: 32px;
+      }
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 28px;
+      /* or 175% */
+
+      letter-spacing: 0.5px;
+    }
+
+    .intro-content:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+
+  .right-intro-content {
+    width: calc(50% - 100px);
+    margin-left: 125px;
+
+    @media (max-width: 1100px) {
+      margin: 0;
+      width: 100%;
+    }
+
+    .desktop-img {
+      @media (max-width: 1100px) {
+        display: none;
+      }
+    }
+
+    .mobile-img {
+      display: none;
+      margin: auto;
+      max-width: 100%;
+
+      @media (max-width: 1100px) {
+        display: block;
+      }
+    }
+  }
+}
+
+.state-section {
+  border-radius: 0 100px;
+}
